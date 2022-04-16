@@ -1,7 +1,13 @@
+import './App.scss';
+import { Intro, Navbar } from './Container';
+
+
 function App() {
   return (
     <div className="App">
-      Subscribe ZainKeepsCode
+      <Navbar />
+      <Intro />
+      
     </div>
   );
 }
